@@ -1,0 +1,18 @@
+{
+  "name": "crytex-airdrop",
+  "version": "1.0.0",
+  "description": "Merkle-based airdrop distribution module for the Crytex ecosystem",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network ethereum"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
